@@ -1,11 +1,11 @@
 runner:
   name: Example Creds Runner
-  description: This runner is testing out requiring the OPEN_API_KEY and SECRET_KEY user creds
+  description: This runner is testing out requiring the OPEN_AI_KEY and MY_SECRET user creds
   version: 0.0.2
 
 creds:
-  - OPEN_API_KEY
-  - SECRET_KEY
+  - OPEN_AI_KEY
+  - MY_SECRET
 
 launch:
   command: app.py
