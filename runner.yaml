@@ -1,12 +1,11 @@
 runner:
-  name: Example Ion Runner
-  description: This ion runner prints out all of the arguments passed to it with addition stdout / stderr outputs for testing. It also prints out all of the environment variables that are available to it.
+  name: Example Creds Runner
+  description: This runner is testing out requiring the OPEN_API_KEY and SECRET_KEY user creds
   version: 0.0.2
 
-webform:
-  - name: input1
-    prompt: Example input 1
-    type: text
+creds:
+  - OPEN_API_KEY
+  - SECRET_KEY
 
 launch:
-  command: app.py --input ${input1}
+  command: app.py
