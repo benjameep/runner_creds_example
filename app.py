@@ -4,8 +4,8 @@ import os
 
 def main():    
     # Print environment variables
-    print("OPEN_API_KEY: ", os.environ.get('OPEN_API_KEY'))
-    print("SECRET_KEY: ", os.environ.get('SECRET_KEY'))
+    print("OPEN_AI_KEY: ", os.environ.get('OPEN_AI_KEY'))
+    print("MY_SECRET: ", os.environ.get('MY_SECRET'))
 
 if __name__ == "__main__":
     main()
